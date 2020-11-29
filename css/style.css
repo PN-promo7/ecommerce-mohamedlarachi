@@ -1,0 +1,323 @@
+* {
+  box-sizing: border-box;
+  
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+}
+
+
+nav{
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  background-color: white;
+  width: 100%;
+}
+
+
+a {
+text-decoration: none;
+color: black;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Revalia', cursive;
+}
+
+h2 {
+  margin-top: 20px;
+  color: black;
+}
+
+h3 {
+  color: black;
+  font-size: 15px;
+}
+
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+.main-nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon-links {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.fa-user:before {
+    content: "\f007";
+    padding-right: 24px;
+}
+
+
+.fa-star:before {
+    content: "\f005";
+    padding-right: 24px;
+}
+
+
+span {
+  color: white;
+}
+ .bande-promo p{
+   font-size: 60px;
+   color: white;
+ }
+
+.list li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.btn {
+  background-color: orange;
+  padding: 5px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+.btnpro {
+  background-color: orange;
+  padding: 5px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-transform: lowercase;
+  border-radius: 25% 10%;
+}
+
+.clic {
+  padding: 5px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  color: #ffffff;
+  text-align: center;
+  text-transform: lowercase;
+  left: 30px;
+}
+
+.background {
+  position: absolute;
+  bottom: 100px;
+  font-weight: 700;
+  font-size: 2, 5rem;
+  margin-bottom: 15px;
+}
+
+header {
+  background-image: url(../image/dog-vairons.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  margin-bottom: 30px;
+  height: 400px;
+  margin-top: 58px;
+}
+
+
+
+
+
+/* categorie */
+.shop-row {
+  display: flex;
+
+  justify-content: space-between;
+
+}
+
+img {
+  max-width: 100%;
+}
+
+.categorie-jouerInteractif {
+  background-image: url("../image/jouer-chienU.jpg");
+}
+
+.jouermacher {
+  background-image: url("../image/img-jeu-macherU.jpg");
+}
+
+.categorie-peluche {
+  background-image: url("../image/img-chienPelucheU.jpg");
+}
+
+.categorie-jouerInteractif,
+.jouermacher,
+.categorie-peluche {
+
+  background-color: #CEDBCF;
+  height: 373px;
+  width: 330px;
+  text-align: center;
+}
+
+
+
+.jouer1{
+  text-align: center;
+}
+.jouer1 img {
+  border-radius: 25%;
+  box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75);
+  text-align: center;
+}
+
+.margin {
+  margin-bottom: 50px;
+}
+
+/* .clearfix {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+} */
+
+
+
+
+article {
+  width: 20%;
+  margin-right: 10%;
+}
+
+ .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+ .product-cat .flex .article-1 {
+  display: flex; */
+  height: 100%;
+  background-image: url(../image/chew-dogV.png);
+  justify-content: center;
+  align-items: center;
+}
+
+/* bande promo */
+.img-background {
+  background-image: url(../image/coucou.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+ height: 200px;
+  width: 100%;
+}
+
+
+.ancre{
+  position: fixed;
+bottom: 20px;
+right: 20px;
+font-size: 20px;
+}
+
+.shield{
+  height: 91px;
+}
+
+/* condition */
+ .u{
+display: flex;
+
+justify-content: space-between;
+margin-top: 150px;
+}
+
+ .u img {
+  display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+
+}
+.option{
+text-align: center;
+}
+
+ .option img{
+    width: 65%;
+    display: inline-block;
+      flex-direction: row;
+      justify-content: center;
+      list-style-type: none;
+      margin: 0;
+  }
+
+  /* resaux */
+
+  .resaux{
+    display: flex;
+  }
+
+  .resaux img{
+    display: inline-block;
+      flex-direction: row;
+      justify-content: center;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    width: 9%;
+  }
+
+.mentions{
+  margin-right:142px;
+}
+
+.mentions ul{
+  padding-left: 12px;
+   list-style-type: none;
+}
+
+.paiement{
+  display: flex;
+}
+.paiement img{
+  display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  width: 15%;
+}
+
+.footer-globe{
+  display: flex;
+  margin-top: 180px
+}

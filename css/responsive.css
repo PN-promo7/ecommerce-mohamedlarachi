@@ -1,0 +1,29 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  body html{
+    width: 100%;
+  }
+.list-listfloat ul{
+  display: none;
+}
+.shop-row{
+  flex-direction: column;
+  width: 124px;
+}
+
+.footer-globe {
+    flex-direction: column;
+    display: flex;
+    margin-top: 180px;
+}
+
+.single-product{
+  width: 220%;
+}
+
+}
